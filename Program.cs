@@ -3,7 +3,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        string directoryPath = @"Input_Path"; // Update with the path to your directory
+        string directoryPath = @"INPUT_PATH"; // Update with the path to your directory
 
         foreach (string filePath in Directory.GetFiles(directoryPath, "*.json"))
         {
